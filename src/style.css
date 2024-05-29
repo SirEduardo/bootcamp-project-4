@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    right: 20%;
+    position: fixed;
+    padding-top: 50px ;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+header li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main-div{
+    margin-top: 100PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.name{
+    color: rgba(248, 196, 26, 0.63);
+    font-size: 40px;
+}
+.address{
+    font-size: 16px;
+    
+}
+.button{
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: orange;
+}
+.button:hover{
+    background-color: rgb(214, 70, 3);
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.h2{
+    color: rgba(245, 16, 73, 0.63)
+}
+.about-me{
+    width: 50%;
+    color: rgb(199, 174, 136);
+    font-size: 20px;
+}
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.section{
+    color: rgba(245, 16, 73, 0.63);
+    font-size: 18px;
+}
+
+.title {
+    font-size: 18px;
+    color: rgba(248, 196, 26, 0.63);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(248, 196, 26, 0.63);
+}
